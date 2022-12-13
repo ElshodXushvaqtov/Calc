@@ -19,18 +19,22 @@
         android:id="@+id/textView"
         android:layout_width="335dp"
         android:layout_height="108dp"
+        android:layout_marginEnd="16dp"
         android:gravity="end"
         android:text="1,258.2"
         android:textColor="@color/black"
         android:textSize="90sp"
-        app:layout_constraintBottom_toTopOf="@+id/layout1"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="221dp" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/layout1"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="330dp">
+        android:layout_marginTop="335dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.5">
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/button27"
@@ -91,9 +95,13 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout4"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="410dp">
+        android:layout_marginTop="410dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layout1"
+        app:layout_constraintVertical_bias="0.5">
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/button12"
@@ -153,9 +161,13 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout5"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="570dp">
+        android:layout_marginTop="570dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layout1"
+        app:layout_constraintVertical_bias="0.5">
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/button8"
@@ -214,9 +226,13 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout6"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="650dp">
+        android:layout_marginTop="650dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layout1"
+        app:layout_constraintVertical_bias="0.5">
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/button17"
@@ -276,9 +292,13 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout7"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="490dp">
+        android:layout_marginTop="490dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layout1"
+        app:layout_constraintVertical_bias="0.5">
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/button18"
